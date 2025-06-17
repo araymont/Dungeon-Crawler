@@ -1,0 +1,5 @@
+Character Name: 
+Physical: 
+Charisma: 
+Awareness: 
+Control: 
