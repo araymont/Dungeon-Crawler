@@ -20,6 +20,7 @@ import Tools
 
 # In terminal it's 12 lines
 # Combat grid is 8x8
+# I shall try to stick to this fully
 
 class Game():
     def Main(self):

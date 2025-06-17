@@ -1,2 +1,3 @@
 # Dungeon-Crawler
-A basic command line dungeon crawler implementation
+A command line dungeon crawler implementation
+Confined to only 12 lines in terminal
