@@ -1,4 +1,4 @@
-
+import random
 
 class BattleRoom():
     def __init__(self):
@@ -40,9 +40,10 @@ class BattleRoom():
 
 
 class FloorMap():
-    def __init__(self,level):
+    def __init__(self,level,seed = 00000000):
+        seed +=2
         self.level = level
-        self.rooms = []
+        self.rooms = [] # I think 9 rooms in 3x3, with possible enterences on each side
         self.generate_rooms()
     
     def generate_rooms(self):

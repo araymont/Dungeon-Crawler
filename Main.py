@@ -24,10 +24,13 @@ import Maps
 # I shall try to stick to this fully
 
 class Game():
+    def __init__(self):
+        print("Note: ")
+        self.Main()
     def Main(self):
-        pass
+        menu = MenuSystems.MainMenuSystem()
+        menu.first_page()
 
 
 
-writer = Tools.Writer_Tool("Enemy is on 13 health.")
-writer.write()
+gameInstance = Game()

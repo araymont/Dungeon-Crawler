@@ -14,6 +14,9 @@ class Clean_Tool():
             print("\x1B[0K",end = "")
 
 
+# writer = Tools.Writer_Tool("Enemy is on 13 health.")
+# writer.write()
+# Example Usage
 class Writer_Tool():
     def __init__(self,string_to_write):
         self.data = string_to_write
@@ -33,7 +36,7 @@ class Writer_Tool():
                     'U','V','W','X','Y','Z','^','&','~','/',
                     '0','1','2','3','4','5','6','7','8','9']
         str_over = ['#'] * len(self.data)
-        print("".join(str_over))
+        #print("".join(str_over))
         for i in range(0,len(str_over)):
             count = 0
             while(str_over[i]!=self.data_list[i]):

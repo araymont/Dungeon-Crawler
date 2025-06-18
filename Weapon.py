@@ -1,7 +1,8 @@
 import random
 
 class Wepon():
-    def __init__(self):
+    def __init__(self,seed = 00000000):
+        seed +=1
         self.damage = 0
         self.range = 0
         self.durability = 0
