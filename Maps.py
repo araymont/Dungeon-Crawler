@@ -1,6 +1,6 @@
 
 
-class BattleMap():
+class BattleRoom():
     def __init__(self):
         self.map = [["-","-","-","-","-","-","-","-"],
                     ["-","-","-","-","-","-","-","-"],
@@ -30,3 +30,20 @@ class BattleMap():
     def print_map(self):
         for l in self.map:
             print(l)
+
+
+
+
+
+
+
+
+
+class FloorMap():
+    def __init__(self,level):
+        self.level = level
+        self.rooms = []
+        self.generate_rooms()
+    
+    def generate_rooms(self):
+        pass

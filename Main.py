@@ -1,9 +1,9 @@
 ##
-## BEDWARSROLES.PY
+## MAIN.PY
 ##
 ## Main File, Handling main loop and setup
 ##
-## @Date Created: Jun 11, 2025
+## @Date Created: Jun 17, 2025
 ## @Created by: Alexander Raymont
 ##
 ## ------------------------------------------------------------------------------------------------
@@ -13,6 +13,7 @@ import Player
 import MenuSystems
 import Weapon
 import Tools
+import Maps
 
 
 # Return over multiple lines "\x1B[2A" or "\x1B[3A" for 2 and 3 lines
@@ -28,18 +29,5 @@ class Game():
 
 
 
-print("1")
-print("2")
-print("3")
-print("4")
-print("5")
-print("6")
-print("7")
-print("8")
-print("9")
-print("10")
-print("11")
-print("12")
-tool = Tools.Clean_Tool()
-tool.Clean()
-print("Now I'm here!")
+writer = Tools.Writer_Tool("Enemy is on 13 health.")
+writer.write()
